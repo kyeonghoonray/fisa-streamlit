@@ -106,13 +106,13 @@ st.line_chart(df)
 #st.map(df)
 st.scatter_chart(df)
 
-st.altair_chart(chart)
-st.bokeh_chart(fig)
-st.graphviz_chart(fig)
-st.plotly_chart(fig)
-st.pydeck_chart(chart)
-st.pyplot(fig)
-st.vega_lite_chart(df, spec)
+#st.altair_chart(chart)
+#st.bokeh_chart(fig)
+#st.graphviz_chart(fig)
+#st.plotly_chart(fig)
+#st.pydeck_chart(chart)
+#st.pyplot(fig)
+#st.vega_lite_chart(df, spec)
 
 # Work with user selections
 event = st.plotly_chart(
